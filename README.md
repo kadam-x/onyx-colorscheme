@@ -1,4 +1,6 @@
-A modern, low-contrast dark colorscheme for Neovim featuring deep charcoal tones, muted plum reds, vibrant mint greens, and crisp infrastructure blues. Natively optimized for terminal transparency.
+![](onyx-logo.png)
+
+A modern, yet retro, medium-contrast dark colorscheme for Neovim featuring muted plum reds, vibrant mint greens, and crisp blues. Natively optimized for terminal transparency adapting to your favorite terminal's background color.
 
 ![](onyx.png)
 
