@@ -9,7 +9,7 @@ hi NormalNC ctermbg=NONE guibg=NONE
 hi SignColumn ctermbg=NONE guibg=NONE
 hi LineNr guifg=#747474 ctermbg=NONE guibg=NONE
 hi CursorLineNR guifg=#f38b3f ctermbg=NONE guibg=NONE
-hi NonText guifg=#c481ff ctermbg=NONE guibg=NONE
+hi NonText guifg=#6aa2ff ctermbg=NONE guibg=NONE
 hi VertSplit gui=NONE guifg=#775858 ctermbg=NONE guibg=NONE
 hi StatusLineNC gui=NONE guibg=NONE guifg=#dadada
 
