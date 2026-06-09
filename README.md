@@ -8,7 +8,7 @@
 
 ![](colorscheme.png)
 
-## Installation
+## 📦 Installation
 
 Using **lazy.nvim** — add the following to your Neovim plugin configuration:
 
@@ -20,8 +20,14 @@ return {
     priority = 1000,
     config = function()
       vim.opt.termguicolors = true
-      vim.cmd([[colorscheme onyx]])
+      -- vim.cmd([[colorscheme onyx]]) -- to set the theme permanently
     end,
   },
 }
+```
+
+## ⚙️ Usage
+
+```vim
+vim.cmd[[colorscheme onyx]]
 ```
