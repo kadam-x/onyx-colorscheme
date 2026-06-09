@@ -2,22 +2,20 @@ A modern, low-contrast dark colorscheme for Neovim featuring deep charcoal tones
 
 ![](onyx.png)
 
-Installation
-Using lazy.nvim
-Add the following specification to your Neovim plugin configuration:
+## Installation
 
-Lua
+Using **lazy.nvim** — add the following to your Neovim plugin configuration:
+
+```lua
 return {
   {
     "kadam-x/onyx-colorscheme",
-    lazy = false,    -- Load immediately during startup
-    priority = 1000, -- Ensure it initializes before other plugins
+    lazy = false,
+    priority = 1000,
     config = function()
-      -- Enable 24-bit True Color support
       vim.opt.termguicolors = true
-      
-      -- Load the colorscheme
       vim.cmd([[colorscheme onyx]])
     end,
   },
 }
+```
