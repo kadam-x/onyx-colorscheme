@@ -35,7 +35,7 @@ hi GitGutterAdd guifg=#71e9c4 guibg=NONE
 hi cssIncludeKeyword guifg=#71e9c4 guibg=NONE
 hi Keyword guifg=#71e9c4 guibg=NONE
 
-hi IncSearch guifg=#f38b3f guibg=NONE
+hi IncSearch guifg=#f38b3f guibg=#4a3520
 hi Title guifg=#f38b3f guibg=NONE
 hi PreCondit guifg=#f38b3f guibg=NONE
 hi Debug guifg=#f38b3f guibg=NONE
