@@ -14,27 +14,27 @@ return {
 	normal = {
 		a = { bg = c.blue, fg = c.fg, gui = "bold" },
 		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.blue, fg = c.fg },
+		c = { bg = c.bg_mid, fg = c.fg },
 	},
 	insert = {
 		a = { bg = c.teal, fg = c.fg, gui = "bold" },
 		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.teal, fg = c.fg },
+		c = { bg = c.bg_mid, fg = c.fg },
 	},
 	visual = {
 		a = { bg = c.purple, fg = c.fg, gui = "bold" },
 		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.purple, fg = c.fg },
+		c = { bg = c.bg_mid, fg = c.fg },
 	},
 	replace = {
 		a = { bg = c.red, fg = c.fg, gui = "bold" },
 		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.red, fg = c.fg },
+		c = { bg = c.bg_mid, fg = c.fg },
 	},
 	command = {
 		a = { bg = c.orange, fg = c.fg, gui = "bold" },
 		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.orange, fg = c.fg },
+		c = { bg = c.bg_mid, fg = c.fg },
 	},
 	inactive = {
 		a = { bg = c.bg_mid, fg = c.muted },
