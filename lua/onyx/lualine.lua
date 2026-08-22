@@ -1,7 +1,8 @@
 local c = {
 	fg = "#dadada",
 	muted = "#747474",
-	bg_mid = "#14151f",
+	bg = "#14151f",
+	bg_dark = "#0d0e17",
 	normal = "#7abed3",
 	insert = "#71e9c4",
 	visual = "#c481ff",
@@ -10,33 +11,33 @@ local c = {
 }
 return {
 	normal = {
-		a = { bg = c.normal, fg = c.fg, gui = "bold" },
-		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.bg_mid, fg = c.fg },
+		a = { bg = c.normal, fg = c.bg_dark, gui = "bold" },
+		b = { bg = c.bg, fg = c.fg },
+		c = { bg = c.bg, fg = c.fg },
 	},
 	insert = {
-		a = { bg = c.insert, fg = c.fg, gui = "bold" },
-		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.bg_mid, fg = c.fg },
+		a = { bg = c.insert, fg = c.bg_dark, gui = "bold" },
+		b = { bg = c.bg, fg = c.fg },
+		c = { bg = c.bg, fg = c.fg },
 	},
 	visual = {
-		a = { bg = c.visual, fg = c.fg, gui = "bold" },
-		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.bg_mid, fg = c.fg },
+		a = { bg = c.visual, fg = c.bg_dark, gui = "bold" },
+		b = { bg = c.bg, fg = c.fg },
+		c = { bg = c.bg, fg = c.fg },
 	},
 	replace = {
-		a = { bg = c.replace, fg = c.fg, gui = "bold" },
-		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.bg_mid, fg = c.fg },
+		a = { bg = c.replace, fg = c.bg_dark, gui = "bold" },
+		b = { bg = c.bg, fg = c.fg },
+		c = { bg = c.bg, fg = c.fg },
 	},
 	command = {
-		a = { bg = c.command, fg = c.fg, gui = "bold" },
-		b = { bg = c.bg_mid, fg = c.fg },
-		c = { bg = c.bg_mid, fg = c.fg },
+		a = { bg = c.command, fg = c.bg_dark, gui = "bold" },
+		b = { bg = c.bg, fg = c.fg },
+		c = { bg = c.bg, fg = c.fg },
 	},
 	inactive = {
-		a = { bg = c.bg_mid, fg = c.muted },
-		b = { bg = c.bg_mid, fg = c.muted },
-		c = { bg = c.bg_mid, fg = c.muted },
+		a = { bg = c.bg, fg = c.muted },
+		b = { bg = c.bg, fg = c.muted },
+		c = { bg = c.bg, fg = c.muted },
 	},
 }
