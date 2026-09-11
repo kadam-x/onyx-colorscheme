@@ -67,8 +67,8 @@ hi cssClassNameDot guifg=#c481ff guibg=NONE
 hi Statement guifg=#7abed3 guibg=NONE
 hi Operator guifg=#7abed3 guibg=NONE
 hi cssAttr guifg=#7abed3 guibg=NONE
-hi Comment guifg=#7b888a gui=italic
-hi SpecialComment guifg=#7b888a gui=italic guibg=NONE
+hi Comment guifg=#636da6 gui=italic
+hi SpecialComment guifg=#636da6 gui=italic guibg=NONE
 
 hi Pmenu guifg=#dadada guibg=#775858
 hi CursorLine guibg=#775858
